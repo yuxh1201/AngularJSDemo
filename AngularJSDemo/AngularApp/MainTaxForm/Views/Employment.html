@@ -1,0 +1,26 @@
+﻿<div class="jumbotron text-center">
+    <h2 class="text-uppercase">
+        Employment Income and Expenses
+    </h2>
+    <small>Please declare/claim any income/deductions/reliefs that is NOT reflected in the
+        Income, Deductions and Reliefs Statement (IDRS).</small>
+</div>
+<div class="form-group">
+    <label for="salary">
+        Salary</label>
+    <div class="input-group">
+        <div class="input-group-addon">
+            $</div>
+        <input type="text" class="form-control" id="salary" ng-model="subTotal.Salary" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="salary">
+        Bonus</label>
+    <div class="input-group">
+        <div class="input-group-addon">
+            $</div>
+        <input type="text" class="form-control" id="Text1" ng-model="subTotal.Bonus" />
+    </div>
+</div>
+<input type="button" class="btn btn-primary" ng-click="updateTaxFormData()" value="PROCEED" />
